@@ -1,0 +1,968 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+/* paralax */
+.slide1 {
+  background-image: url(../image/fd2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  padding-top: 20px;
+
+
+
+}
+.slide2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  background-image: url(../image/fd3.jpg);
+
+}
+.slide3 {
+  background-image: url(../image/fd1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.slide4 {
+  background-image: url(../image/fond_resa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.slide5 {
+  background-image: url(../image/fond_resa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+
+/* slide I */
+
+.flex_menu{
+  float: right;
+}
+.menu {
+  /*position: fixed;*/
+  color: white;
+  font-size: 100%;
+
+}
+.menu ul{
+  display: inline-flex;
+  list-style-type:none;
+}
+.menu li {
+ margin: 20px 100px 0 0;
+ font-family: 'Georgia';
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Georgia';
+
+}
+#li_3 {
+  margin: 20px 0 0 0;
+}
+.menu a:hover {
+  color: red;
+}
+
+.full {
+  width: 98vw;
+  height: 100px;
+  /*background-color: red;*/
+  font-size: 18px;
+
+}
+.gauche {
+  margin-left: 10px;
+  float: left;;
+  /*background-color: yellow;*/
+  width: 70%;
+  height: 100px;
+
+}
+.gauche img {
+  float: left;
+  width: 18%;
+  margin-top: 1%;
+  margin-left: 8%;
+}
+.droite {
+  float: right;
+  /*background-color: green;*/
+  width:20%;
+  height: 100px;
+  font-family:'century gothic';
+  font-size: 150%;
+}
+.num {
+  color:#FFD301;
+  margin-top: 5%;
+}
+
+.milieu_page {
+  width: 98vw;
+  height: 70vh;
+  /*background-color: red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.part_1 {
+  width: 800px;
+  height: 60px;
+  /*background-color: pink;*/
+}
+.part_2 {
+  width: 600px;
+  height: 45px;
+  /*background-color: grey;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part_1 p {
+  font-family: 'Georgia';
+  color:#FFD301;
+  font-size: 51px;
+  text-shadow: 0px 2px 0px black;
+
+}
+.part_2 p {
+  font-family: 'Georgia';
+  color:white;
+  font-size: 36px;
+  text-shadow: 0px 2px 0px black;
+}
+.bouton {
+  width: 800px;
+  height: 200px;
+  /*background-color: lightblue;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#plus{
+  width: 220px;
+  height: 50px;
+  /*background-color: white;*/
+  margin-right: 100px;
+  border-width:2px;
+  border-style:solid;
+  border-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Georgia';
+  font-size:20px;
+
+  color: white;
+
+}
+#plus:hover {
+    border-color: #FFD301;
+    color: #FFD301;
+}
+
+#resa {
+  width: 220px;
+  height: 50px;
+  /*background-color: white;*/
+  border-width:2px;
+  border-style:solid;
+  border-color:#FFD301;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Georgia';
+  color: #FFD301;
+  font-size:20px;
+}
+#resa:hover {
+    border-color: white;
+    color: white;
+}
+a {
+  text-decoration: none;
+}
+
+/* MENU SLIDE I II II IV V */
+.menu_haut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98,5vw;
+  height: 12%;
+  background-color: white;
+
+
+}
+.logo_sct2 {
+
+  display: flex;
+  align-items: center;
+  width:20%;
+  height: 100%;
+  /*background-color: red;*/
+}
+.logo_sct2 img {
+  margin-left: 10%;
+  width: 80%;
+  height: 50%;
+}
+.numero {
+  width: 20%;
+  height: 100%;
+  font-size: 150%;
+  font-family: 'century gothic';
+  /*background-color: green;*/
+}
+
+.menuf {
+  /*position: fixed;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+  /*background-color: yellow;*/
+  color: #01261F;
+  font-size: 110%;
+
+}
+.menuf nav{
+  margin-bottom: 3%;
+  display: inline-flex;
+  list-style-type:none;
+
+}
+.menuf li {
+ margin: 20px 100px 0 0;
+ font-family: 'Georgia';
+}
+.menuf li a {
+  color:  #01261F;
+  text-decoration: none;
+  font-family: 'Georgia';
+
+}
+#li_f {
+  margin: 20px 0 0 0;
+}
+.menuf a:hover {
+  color: #FFD301;
+  text-decoration: underline;
+}
+
+#m2:hover {
+  color: #FFD301;
+  text-decoration: underline;
+}
+
+/* slide II */
+
+.menu_number_2 {
+  width: 98,5vw;
+  height: 8%;
+  background-color: lightgrey;
+
+}
+
+
+.sous_menu {
+  /*position: fixed;*/
+  display: flex;
+  justify-content: center;
+
+  width: 100%%;
+  height: 100%;
+
+  color: #01261F;
+  font-size: 90%;
+
+}
+.sous_menu ul{
+  margin-bottom: 3%;
+  display: inline-flex;
+  list-style-type:none;
+
+}
+.sous_menu li {
+ margin: 20px 100px 0 0;
+ font-family: 'Georgia';
+ font-style: italic;
+}
+.sous_menu li a {
+  color:  #01261F;
+  text-decoration: none;
+  font-family: 'Georgia';
+
+}
+#li_f {
+  margin: 20px 0 0 0;
+}
+.sous_menu a:hover {
+  color: #FFD301;
+  text-decoration: underline;
+}
+
+
+.palax {
+  width: 98,5vw;
+  height: 100%;
+  /*background-color: red;*/
+}
+
+.ntrconcept {
+  width: 100%;
+  height: 100%;
+  /*background-color: red;*/
+}
+
+#text_concept_1{
+  background-color: #01261F;
+  float: right;
+  margin-top:4%;
+  width: 70%;
+  height:400px;
+  overflow: hidden;
+}
+#groupe_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  position: absolute;
+  left: 6%;
+  top: 80px;
+  width: 45%;
+  height: 350px;
+  /*background-color: black;*/
+
+}
+#groupe_1 img {
+  width: 98%;
+  height: 99%;
+}
+#text_concept_1 h1 {
+  font-family: 'century gothic';
+  font-size: 30px;
+  color:#FFD301;
+  margin-top: 20px;
+  margin-left: 40%;
+  margin-right: 5%;
+
+}
+#text_concept_1 h4 {
+  font-family: 'Georgia';
+  font-style: italic;
+  color:#FFD301;
+  font-size: 15px;
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+#text_concept_1 p {
+  font-family: 'Georgia';
+  font-size: 15px;
+  color:white;
+  margin-top: 25px;
+  line-height: 180%;
+  text-align: justify;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+
+#text_concept_2{
+  background-color:#FBF2C0;
+  float: right;
+  margin-top:4%;
+  width: 70%;
+  height:400px;
+  overflow: hidden;
+}
+#groupe_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  position: absolute;
+  left: 6%;
+  top: 80px;
+  width: 45%;
+  height: 350px;
+  /*background-color: black;*/
+
+}
+#groupe_2 img {
+  width: 99%;
+  height: 98%;
+}
+#text_concept_2 h1 {
+  font-family: 'century gothic';
+
+  font-size: 30px;
+  color:#01261F;
+  margin-top: 20px;
+  margin-left: 40%;
+  margin-right: 5%;
+
+}
+#text_concept_2 h4 {
+  font-family: 'Georgia';
+  font-style: italic;
+  color:#01261F;
+  font-size: 15px;
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+#text_concept_2 p {
+  font-family: 'Georgia';
+  font-size: 15px;
+  color:#01261F;
+  margin-top: 25px;
+  line-height: 180%;
+  text-align: justify;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+
+
+#text_concept_3{
+  background-color:#FBF2C0;
+  float: right;
+  margin-top:4%;
+  width: 70%;
+  height:400px;
+  overflow: hidden;
+}
+#groupe_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  position: absolute;
+  left: 6%;
+  top: 80px;
+  width: 45%;
+  height: 350px;
+  /*background-color: black;*/
+
+}
+#groupe_3 img {
+  width: 99%;
+  height: 98%;
+}
+#text_concept_3 h1 {
+  font-family: 'century gothic';
+
+  font-size: 30px;
+  color:#01261F;
+  margin-top: 20px;
+  margin-left: 40%;
+  margin-right: 5%;
+
+}
+#text_concept_3 h4 {
+  font-family: 'Georgia';
+  font-style: italic;
+  color:#01261F;
+  font-size: 15px;
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+#text_concept_3 p {
+  font-family: 'Georgia';
+  font-size: 15px;
+  color:#01261F;
+  margin-top: 25px;
+  line-height: 180%;
+  text-align: justify;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+/* slide II passage de page */
+
+#certif {
+  width: 98vw;
+  height: 80%  ;
+  background-color: yellow;
+}
+
+.certif_gauche {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  float: left;
+
+}
+.certif_gauche img {
+  width: 70%;
+  margin: 10% 0 0 18%;
+  box-shadow: -15px 15px 5px #888888;
+  }
+.certif_droit {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  float: right;
+}
+.certif_droit h1 {
+  font-family: 'century gothic';
+  font-size: 30px;
+  color:#01261F;
+  text-shadow: -1px -1px 1px #888888;
+
+}
+.certif_droit h4 {
+  font-family: 'century gothic';
+  font-size: 20px;
+  color:#01261F;
+}
+
+
+#haut {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 3%;
+  /*background-color: red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+#milieu_1 {
+  width: 100%;
+  height: 20%;
+  /*background-color: lightgreen;*/
+  display: flex;
+  align-items: center;
+
+}
+#milieu_1 img {
+  width: 35%;
+  height: 60%;
+}
+#milieu_1 p {
+  font-size: 15px;
+  margin-left: 20px;
+  font-family: 'Georgia';
+  color: #01261F;
+}
+
+#milieu_2 {
+  width: 100%;
+  height: 20%;
+  /*background-color: yellow;*/
+  display: flex;
+  align-items: center;
+}
+#milieu_2 img {
+  width: 40%;
+  height: 60%;
+}
+#milieu_2 p {
+  font-size: 15px;
+  margin-left: 25px;
+  font-family: 'Georgia';
+  color: #01261F;
+}
+
+#bas {
+  width: 100%;
+  height: 20%;
+  /*background-color: blue;*/
+  display: flex;
+  align-items: center;
+}
+#bas img {
+  width: 20%;
+  height: 100%;
+  margin-left: 5%;
+}
+#bas p {
+  font-size: 15px;
+  margin-left: 40px;
+  font-family: 'Georgia';
+  color: #01261F;
+}
+
+
+
+
+
+
+.ALL {
+  width: 98,5vw;
+  height: 100%;
+  /*background-color: red;*/
+
+}
+
+
+.carrou{
+
+    position: relative;
+    width: 98,5vw;
+    height: 100%;
+
+}
+.intern{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    list-style: none;
+}
+.intern.visible{
+    opacity: 1;
+
+    transition: opacity 2s;
+
+}
+.intern.hidden{
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.titre{
+  color:  #01261F;
+  text-decoration: none;
+  font-family: 'Georgia';
+
+
+}
+.titre:hover{
+  color: #FFD301;
+  text-decoration: underline;
+}
+.pc{
+  color:  #01261F;
+  text-decoration: none;
+  font-family: 'Georgia';
+  cursor: pointer;
+}
+
+
+/* slide III */
+
+.sct2_corps {
+  width: 98,5vw;
+  height: 100%;
+  padding-top: 2%;
+  /*background-color: yellow;*/
+}
+.carte {
+  width: 80%;
+  height: 80%;
+  margin-left: 11%;
+  /*background-color: green;*/
+
+}
+
+.insect  {
+  background-image: url(../image/insects.png);
+  /*background-size: cover;*/
+  /*background-color: yellow;*/
+  width: 48%;
+  height: 47%;
+  float: left;
+  opacity: 1;
+  border-radius: 5px;
+}
+.hover_insect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.text_insect {
+  background-color: rgba(19, 73, 59, 0.8);
+  width: 90%;
+  height: 90%;
+  padding: 3px 0 0 10px;
+  border-radius: 5px;
+}
+.hover_insect:hover{
+  background-image: url(../image/insects.png);
+
+  opacity: 1;
+}
+
+.viande  {
+  background-image: url(../image/viande.png);
+  /*background-size: cover;*/
+  /*background-color: yellow;*/
+  width: 48%;
+  height: 47%;
+  background-color: blue;
+  float: right;
+  border-radius: 5px;
+
+}
+.hover_viande {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.text_viande {
+  background-color: rgba(19, 73, 59, 0.8);
+  width: 90%;
+  height: 90%;
+  padding: 3px 0 0 10px;
+  border-radius: 5px;
+}
+.hover_viande:hover{
+  background-image: url(../image/viande.png);
+
+  opacity: 1;
+}
+
+.algue {
+  margin-top: 3%;
+  background-image: url(../image/algue.png);
+  /*background-size: cover;*/
+  /*background-color: yellow;*/
+  width: 48%;
+  height: 47%;
+  background-color: blue;
+  float: right;
+  border-radius: 5px;
+
+}
+.hover_algue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.text_algue {
+  background-color: rgba(19, 73, 59, 0.8);
+  width: 90%;
+  height: 90%;
+  padding: 3px 0 0 10px;
+  border-radius: 5px;
+}
+.hover_algue:hover{
+  background-image: url(../image/algue.png);
+
+  opacity: 1;
+}
+
+.pillule {
+  margin-top: 3%;
+  background-image: url(../image/pillule.png);
+  /*background-size: cover;*/
+  /*background-color: yellow;*/
+  width: 48%;
+  height: 47%;
+  background-color: blue;
+  float: left;
+  border-radius: 5px;
+}
+.hover_pillule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.text_pillule {
+  background-color: rgba(19, 73, 59, 0.8);
+  width: 90%;
+  height: 90%;
+  padding: 3px 0 0 10px;
+  border-radius: 5px;
+}
+.hover_pillule:hover{
+  background-image: url(../image/pillule.png);
+  opacity: 1;
+}
+
+
+.text_ALL h1 {
+  font-family: 'century gothic';
+  font-size: 25px;
+  color: white;
+  font-style: oblique;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+.def {
+  display: inline-block;
+  font-family: 'century gothic';
+  font-size: 17px;
+  text-decoration: underline;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.text_ALL p {
+  margin-left: 4px;
+  display: inline-block;
+  font-family: 'century gothic';
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+
+  margin-bottom: 10px;
+}
+
+
+
+
+
+/* slide IV */
+
+.form_resa {
+  width: 98,5vw;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form_resa h1 {
+  color: white;
+  font-family: 'century gothic';
+  font-size: 40px;
+  margin-top: 2%;
+}
+form {
+    width: 400px;
+    padding: 1em;
+    margin-left: 7em;
+
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+  color: white;
+  font-family: 'century gothic';
+  font-size: 15px;
+  display: block;
+  width: 200px;
+  margin-top: -10px;
+
+}
+input, textarea {
+    border-radius: 6px;
+    width: 300px;
+    height: 20px;
+}
+.button {
+    padding-left: 0px;
+}
+button {
+    margin-left: .5em;
+}
+
+
+/* slide V */
+
+.ALL_cont {
+  width: 98,5vw;
+  height: 100%;
+  /*background-color: red;*/
+
+}
+
+
+.pg_contact{
+
+    position: relative;
+    width: 98,5vw;
+    height: 100%;
+
+}
+.itrn_cont{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    list-style: none;
+}
+.itrn_cont.visible{
+    opacity: 1;
+
+    transition: opacity 2s;
+
+}
+.text_cont{
+  background-color: #FBF2C0;
+  float: right;
+  margin-top:4%;
+  width: 70%;
+  height:400px;
+  overflow: hidden;
+}
+
+.text_cont h1 {
+  font-family: 'century gothic';
+  font-size: 25px;
+  color:#01261F;
+  margin-top: 10px;
+  margin-left: 40%;
+  margin-right: 5%;
+
+}
+.text_cont h4 {
+  font-family: 'Georgia';
+  font-style: italic;
+  color: #01261F;
+  font-size: 15px;
+  margin-top: 2%;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+.text_cont p {
+
+  font-family: 'Georgia';
+  font-size: 15px;
+  color:white;
+  margin-top: 25px;
+  line-height: 180%;
+  text-align: justify;
+  margin-left: 40%;
+  margin-right: 5%;
+  margin-top: 500px;
+}
