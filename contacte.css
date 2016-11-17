@@ -1,0 +1,125 @@
+.palax {
+  width: 98,5vw;
+  height: 100%;
+}
+
+.ntrconcept {
+  width: 100%;
+  height: 100%;
+}
+
+.ntrconcept div{
+  background-color: #F2F2F2;
+  float: right;
+  margin-top:4%;
+  width: 70%;
+  height:525px;
+  overflow: hidden;
+}
+
+#groupe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  position: absolute;
+  float: right;
+  margin-top:10%;
+  margin-left: 3%;
+  width: 45%;
+  height: 55%;
+  background-color: black;
+
+}
+#groupe img {
+  width: 100%;
+  height: 100%;
+}
+
+#groupe_certifie_1 {
+  width: 40%;
+  height: 15%;
+  position: absolute;
+  float: right;
+  margin-top: 10px;
+  margin-left: 270px;
+  line-height: 1px;
+}
+
+#groupe_certifie_1 p {
+position: absolute;
+margin-right: 20px;
+}
+
+
+#groupe_certifie_2 {
+   width: 40%;
+  height: 15%;
+  position: absolute;
+  float: right;
+  margin-top: 100px;
+  margin-left: 270px;
+  line-height: 1px;
+}
+
+#groupe_certifie_2 p {
+  position: absolute;
+  margin-right: 20px;
+}
+
+#groupe_certifie_3 {
+   width: 40%;
+  height: 15%;
+  position: absolute;
+  float: right;
+  margin-top: 190px;
+  margin-left: 270px;
+  line-height: 1px;
+}
+
+#groupe_certifie_3 p {
+  position: absolute;
+  margin-right: 20px;
+}
+
+#img_certifie_1 {
+  margin-top: 35px;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+#text_concept h1 {
+  font-family: 'century gothic';
+  font-style: italic;
+  font-size: 30px;
+  color:#13493B;
+  margin-top: 35px;
+  margin-left: 40%;
+  margin-right: 5%;
+
+}
+
+#text_concept h4 {
+  font-family: 'Georgia';
+  color:#13493B;
+  font-size: 15px;
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+
+#text_concept strong {
+  font-family: 'century gothic';
+}
+
+#text_concept p {
+  font-family: 'Georgia';
+  font-size: 15px;
+  color:#13493B;
+  margin-top: 10px;
+  line-height: 180%;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 5%;
+  float: right;
+}
